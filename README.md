@@ -1,19 +1,31 @@
-## Mon Portfolio
+# ⚔️ **Mon Portfolio** ⚔️
 
-    Bienvenue sur mon portfolio !
+Bienvenue sur mon portfolio ! 🎮
 
-    Ce projet me represente :
-    1 - qui je suis
-    2 - ce que je fais
-    3 - comment j'ai fais.
-    Un petit resumer d'une vie mais bien fait.
+Ce projet me représente :
+1. 🛡️ **Qui je suis**
+2. 🗡️ **Ce que je fais**
+3. ⚙️ **Comment j'ai fait**
 
-## Apercu 
+Un petit résumé d'une vie, mais bien fait et épique. 💥
 
-    A l'interieur vous y trouverez mes contacts, un resumer du parcours que j'ai accomplis jusqu'ici et aussi bien evidemment, ce qu'il y a a savoir a propos de moi.
+---
 
-    J'espere que ce portfolio vous aidera ou du moins vous inspirera.
+## 📜 **Aperçu** 📜
 
-                    
-#
-                                # MERCI A TOUS !
+À l'intérieur, vous y trouverez :
+- 📱 **Mes contacts**
+- 🏆 **Un résumé du parcours que j'ai accompli jusqu'ici**
+- 🔍 **Et bien évidemment, tout ce qu'il y a à savoir à propos de moi**
+
+J'espère que ce portfolio vous aidera, ou du moins, vous inspirera à rejoindre l'aventure. 🚀
+
+---
+
+# 💥 **MERCI A TOUS !** 💥
+
+🙏 Un grand merci à tous ceux qui m'ont soutenu dans cette aventure ! Vous êtes mes alliés dans cette quête ! ⚔️
+
+---
+**[⚔️ Rejoignez l'aventure !](#)** 🔗
+
