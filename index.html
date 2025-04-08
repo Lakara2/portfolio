@@ -2,532 +2,367 @@
 <html lang="en">
 
 <head>
-  <link rel="icon" href="./assets/images/conne.png" type="image/x-icon">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Portfolio - Bryan Lakara</title>
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/images/conne.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio - Bryan Lakara</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <main> 
-    <aside class="sidebar" data-sidebar>
+    <main>
+        <aside class="sidebar" data-sidebar>
+            <div class="sidebar-info">
+                <figure class="avatar-box">
+                    <img src="./assets/images/my-avatar.png" alt="Bryan Lakara" class="radiuss responsive-img">
+                </figure>
+                <div class="info-content">
+                    <h1 class="name" title="Bryan Lakara">Bryan Lakara</h1>
+                    <p class="title">Developpeur Web</p>
+                </div>
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+            </div>
+            <div class="sidebar-info_more">
+                <div class="separator"></div>
+                <ul class="contacts-list">
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+                            <a href="mail" class="contact-link">lbryanlakara@gmail.com</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+                            <a href="tel:+261 383 417 317" class="contact-link">+261 383 417 317</a>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+                            <time datetime="2003-11-10">Nov 10, 2003</time>
+                        </div>
+                    </li>
+                    <li class="contact-item">
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-title">Adresse</p>
+                            <address>Lot VS 116 ATer Mandrarivo Ambanidia</address>
+                        </div>
+                    </li>
+                </ul>
+                <div class="separator"></div>
+                <div class="separator"></div>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="https://www.facebook.com/bryan.lakara" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://github.com/Lakara2" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="https://www.instagram.com/bryanlakara" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="main-content">
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Parcours</button>
+                    </li>
+                </ul>
+            </nav>
+            <article class="about  active" data-page="about">
+                <header>
+                    <h2 class="h2 article-title">Qui Suis-Je ?</h2>
+                </header>
+                <section class="about-text">
+                    <p>
+                        En tant que développeur informatique, je suis passionné par l'exploration des technologies
+                        émergentes telles que la réalité virtuelle (VR) et les jeux VRMMORPG.
+                        Mon objectif est de concevoir des solutions innovantes et performantes qui répondent aux besoins
+                        de la société moderne.
+                        Je m'engage à devenir un expert dans le développement de logiciels, en alliant rigueur technique
+                        et souci constant de l'amélioration de l'expérience utilisateur.
+                        Mon approche se concentre sur la création de solutions intuitives, évolutives et parfaitement
+                        adaptées aux exigences actuelles du marché.
+                    </p>
+                    <p>
+                        Mon objectif est de devenir un expert en développement de logiciels
+                        performants et intuitifs pour améliorer l'expérience
+                        utilisateur.
+                    </p>
+                </section>
+                <div class="separator"></div>
+                <section class="service">
+                    <h3 class="h3 service-title">Ce Que Je Fais</h3>
+                    <ul class="service-list">
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web design</h4>
+                                <p class="service-item-text">
+                                    Creer un modele de site web moderne et d'un nouveau genre.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Web development</h4>
+                                <p class="service-item-text">
+                                    Developpement de site web avec le plus d'imagination possible.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Mobile apps</h4>
+                                <p class="service-item-text">
+                                    Developpement professionnel d'applications pour IOS et Android.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-item">
+                            <div class="service-icon-box">
+                                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                            </div>
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Photography</h4>
+                                <p class="service-item-text">Juste pour le plaisir, j'aime bien prendre des photos de toute categorie.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <div class="separator"></div>
+                <section class="testimonials">
+                    <h3 class="h3 testimonials-title">Compétence Informatique</h3>
+                    <ul class="testimonials-list has-scrollbar">
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-1.png" alt="Front End" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Front-end</h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Développement web en utilisant des bibliotheques externes et des frameworks.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gestion de Projet</h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Pouvoir gerer un projet avec d'autres personnes a l'aide de JIRA.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
 
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Bryan Lakara" class="radiuss responsive-img">
-        </figure>        
-
-        <div class="info-content">
-          <h1 class="name" title="Bryan Lakara">Bryan Lakara</h1>
-
-          <p class="title">Developpeur Web</p>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Back-End</h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Developper des applications back-end en utilisant divers frameworks et technologies.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/avatar-4.png" alt="Henry william" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Environnement de dev</h4>
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>Savoir utiliser system sous linux et des editeurs de code.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <div class="modal-container" data-modal-container>
+                    <div class="overlay" data-overlay></div>
+                    <section class="testimonials-modal">
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                            </figure>
+                            <img src="./assets/images/icon-quote.svg" alt="quote icon">
+                        </div>
+                        <div class="modal-content">
+                            <h5 class="h5">Interface Utilisateur</h5><br>
+                            <div data-modal-text>
+                                <p>
+                                    Développement web avec HTML, CSS et JavaScript ou en utilisant des bibliotheques
+                                    comme
+                                    bootstrap ou Material UI et React pour la creation d’une page internet ou
+                                    d’une application mobile.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </article>
+            <article class="parcours" data-page="parcours">
+                <header>
+                    <h2 class="h2 article-title">Parcours</h2>
+                </header>
+                <section class="timeline">
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Education</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">College Saint Chantal</h4>
+                            <span>2010 — 2018</span>
+                            <p class="timeline-text">
+                                J'ai etudie au College Saint Chantal pour preparer mon CEPE et mon BEPC.
+                                Pendant mes annees la-bas, j'ai non seulement apris les bases de la vie et rencontrer
+                                des gens formidables mais j'y ai aussi
+                                trouver ma voie et su forger mon caractere.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Lycee Privee Le Triomphe </h4>
+                            <span>2019 — 2020</span>
+                            <p class="timeline-text">
+                                Bien que j'ai etudier au Lycee Moderne Ampefiloha en seconde et en premiere, c'est au
+                                Lycee Privee Le Triomphe
+                                que j'ai decrocher mon bac car en parallele de ma classe de premiere (2019-2020) j'ai
+                                pris l'initiative de travailler dur
+                                et j'ai eu mon Baccaleaureat.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Haute Ecole de l'Informatique</h4>
+                            <span>2021 jusqu'a nos jours</span>
+                            <p class="timeline-text">
+                                Actuellement, j'etudie chez HEI Madagascar en L3 (la premiere promotion de l'ecole)
+                                et j'en sui fiere car je suis en train de realiser mon reve, travailler en tant que
+                                developpeur.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+                <section class="timeline">
+                    <div class="separator"></div>
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+                        <h3 class="h3">Experience et Formation</h3>
+                    </div>
+                    <ol class="timeline-list">
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Coaching avec STH consulting</h4>
+                            <span>D'avril 2023 à novembre 2023 </span>
+                            <p class="timeline-text">En partenaria avec la Haute École d'Informatique Ivandry Madagascar
+                                On y travail l'insertion des eleves dans le monde professionnel en y apprend le sens relationnelle, le coaching
+                                individuel et les divers softskills a appliquer.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">DELF B2+ Français</h4>
+                            <span>De mars 2023 à décembre 2023</span>
+                            <p class="timeline-text">
+                                Alliance Francaise d'Antananarivo Andavamamba
+                                <span2>Diplôme de français</span2>, langue étrangère de haut niveau, attestant d'une capacité
+                                avancée à utiliser la langue française.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Développement d'application</h4>
+                            <span>De février 2024 à mai 2024 </span>
+                            <p class="timeline-text">
+                                Chez l'<span2>Office des transmission Militaire de l'Etat (OTME)</span2> a Andohalo,
+                                j'ai effectuer mon premier stage au poste de <span2>back-end en developpant une application de
+                                gestion de materiel Militaire</span2> avec MongoDb, ExpressJs et Swagger.
+                                Ce fut fructifiant car j'y ai appris les bases du metier mais aussi su comment est le
+                                monde professionnel.
+                            </p>
+                        </li>
+                        <li class="timeline-item">
+                            <h4 class="h4 timeline-item-title">Développement Web & Gestionnaire de Serveur</h4>
+                            <span>De septembre 2024 à Décembre 2024 </span>
+                            <p class="timeline-text">
+                                Passionné par le développement web, j'ai eu l'opportunité de travailler en tant que
+                                <span2>stagiaire chez l'Assurance Aro</span2>.
+                                Durant mon stage, j'ai acquis une solide expérience en développement web, en contribuant
+                                à la <span2>création et à l'amélioration de diverses applications</span2>, ainsi qu'en <span2>gestion de
+                                serveurs</span2> pour assurer la performance et la sécurité des systèmes.
+                                Mon approche est centrée sur l'innovation, l'optimisation et la résolution de problèmes
+                                techniques avec efficacité.
+                            </p>
+                        </li>
+                    </ol>
+                </section>
+            </article>
+            <article class="portfolio" data-page="portfolio">
+                <section class="projects">
+                    <div class="filter-select-box">
+                        <button class="filter-select" data-select>
+                        </button>
+                    </div>
+                </section>
+            </article>
         </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mail" class="contact-link">lbryanlakara@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+261 324 723 448</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">Nov 10, 2003</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Adresse</p>
-
-              <address>Lot VS 116 ATer Mandrarivo Ambanidia</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://www.facebook.com/bryan.lakara" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.tiktok.com/@lakara2.0" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/bryanlakara" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-    <div class="main-content">
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Parcours</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">Qui Suis-Je ?</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            En tant que développeur informatique, je suis passionné par l'exploration des technologies émergentes telles que la réalité virtuelle (VR) et les jeux VRMMORPG.
-            Mon objectif est de concevoir des solutions innovantes et performantes qui répondent aux besoins de la société moderne.
-            Je m'engage à devenir un expert dans le développement de logiciels, en alliant rigueur technique et souci constant de l'amélioration de l'expérience utilisateur.
-            Mon approche se concentre sur la création de solutions intuitives, évolutives et parfaitement adaptées aux exigences actuelles du marché.
-          </p>
-
-          <p>
-            Mon objectif est de devenir un expert en développement de logiciels 
-            performants et intuitifs pour améliorer l'expérience
-            utilisateur.
-          </p>
-        </section>
-
-        <section class="service">
-
-          <h3 class="h3 service-title">Ce Que Je Fais</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  Creer un modele de site web moderne et d'un nouveau genre.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  Developpement de site web avec le plus d'imagination possible.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Developpement professionnel d'applications pour IOS et Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  Juste pour le plaisir,
-                  j'aime bien prendre des photos de toute categorie.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Compétence Informatique</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Front End" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Front-end</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Développement web en utilisant des bibliotheques externes et des frameworks.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gestion de Projet</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Pouvoir gerer un projet avec d'autres personnes a l'aide de JIRA.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Back-End</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Developper des applications back-end en utilisant divers frameworks et technologies.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Environnement de dev</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Savoir utiliser system sous linux et des editeurs de code.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h5 class="h5">Interface Utilisateur</h5><br>
-
-              <div data-modal-text>
-                <p>
-                  Développement web avec HTML, CSS et JavaScript ou en utilisant des bibliotheques comme 
-                  bootstrap ou Material UI et React pour la creation d’une page internet ou 
-                  d’une application mobile.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-      </article>
-
-      <article class="parcours" data-page="parcours">
-
-        <header>
-          <h2 class="h2 article-title">Parcours</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">College Saint Chantal</h4>
-
-              <span>2010 — 2018</span>
-
-              <p class="timeline-text">
-                J'ai etudie au College Saint Chantal pour preparer mon CEPE et mon BEPC.
-                Pendant mes annees la-bas, j'ai non seulement apris les bases de la vie et rencontrer des gens formidables mais j'y ai aussi
-                trouver ma voie et su forger mon caractere.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Lycee Privee Le Triomphe </h4>
-
-              <span>2019 — 2020</span>
-
-              <p class="timeline-text">
-                Bien que j'ai etudier au Lycee Moderne Ampefiloha en seconde et en premiere, c'est au Lycee Privee Le Triomphe 
-                que j'ai decrocher mon bac car en parallele de ma classe de premiere (2019-2020) j'ai pris l'initiative de travailler dur
-                et j'ai eu mon Baccaleaureat. 
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Haute Ecole de l'Informatique</h4>
-
-              <span>2021 jusqu'a nos jours</span>
-
-              <p class="timeline-text">
-                Actuellement, j'etudie chez HEI Madagascar en L3 (la premiere promotion de l'ecole) 
-                et j'en sui fiere car je suis en train de realiser mon reve, travailler en tant que developpeur. 
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience et Formation</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Coaching avec STH consulting</h4>
-
-              <span>D'avril 2023 à novembre 2023 </span>
-
-              <p class="timeline-text">Haute École d'Informatique Ivandry, Madagascar
-                Insertion dans le monde professionnel , sens relationnelle , coaching
-                individuel.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">DELF B2+ Français</h4>
-
-              <span>De mars 2023 à décembre 2023</span>
-
-              <p class="timeline-text">
-                Alliance Francaise d'Antananarivo Andavamamba
-                Diplôme de français langue étrangère de haut niveau, attestant d'une capacité
-                avancée à utiliser la langue française.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Développement d'application</h4>
-
-              <span>De février 2024 à mai 2024 </span>
-
-              <p class="timeline-text">
-                Chez l'Office des transmission Militaire de l'Etat (OTME) a Andohalo, 
-                j'ai effectuer mon premier stage au poste de back-end en developpant une application de gestion de materiel Militaire avec MongoDb, ExpressJs et Swagger.
-                Ce fut fructifiant car j'y ai appris les bases du metier mais aussi su comment est le monde professionnel. 
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Développement Web & Gestionnaire de Serveur</h4>
-
-              <span>De septembre 2024 à Décembre 2024 </span>
-
-              <p class="timeline-text">
-                Passionné par le développement web, j'ai eu l'opportunité de travailler en tant que stagiaire chez l'Assurance Aro.
-                Durant mon stage, j'ai acquis une solide expérience en développement web, en contribuant à la création et à l'amélioration de diverses applications, ainsi qu'en gestion de serveurs pour assurer la performance et la sécurité des systèmes.
-                Mon approche est centrée sur l'innovation, l'optimisation et la résolution de problèmes techniques avec efficacité.
-              </p>
-
-            </li>
-          </ol>
-
-        </section>
-
-      </article>
-
-      <article class="portfolio" data-page="portfolio">
-        <section class="projects">
-          <div class="filter-select-box">
-            <button class="filter-select" data-select>
-            </button>
-          </div>
-        </section>
-      </article>
-    </div>
-
-  </main>
-  <script src="./assets/js/script.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    </main>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
